@@ -20,7 +20,7 @@ body .body {
     left: 0px;
     top: 0px;
     /* background-color: #ffbb00; */
-    background-color: rgba(0, 46, 82, 0.15);
+    background-color: rgba(82, 37, 0, 0.15);
     padding: 20px;
 }
 
@@ -222,6 +222,19 @@ section {
     font-weight: 600;
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #020c67;
+}
+
+/* .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #fcffff;
+    background: #020c67;
+} */
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: #ffbb00;
+}
+
 /* Navbar dropdown */
 .dropdown-left {
     left: 0 !important;
@@ -286,6 +299,11 @@ section {
 .navbar-default.navbar-fixed-top.navbar-shrink .navbar-nav>li>a {
     padding-top: 24px;
     padding-bottom: 24px;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    background-color: #ffbb00;
+    color: #fcffff;
 }
 
 /* Navbar transparent */
@@ -616,7 +634,7 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     /* -ms-transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     transform: rotate(90deg); */
-    margin: 0 auto;
+    /* margin: 0 auto; */
     position: relative;
     top: 25px;
     box-shadow: 0 0 0 6px #FFFFFF, 0 0 0 7px #dadbdb;
@@ -624,13 +642,15 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .team-item img {
-    max-width: 100%;
+    width: 300px;
+    height: 300px;
 }
 
 .team-items {
     margin-bottom: 50px;
     padding-top: 10px;
     margin-top: 0;
+    display: flex;
 }
 
 .team-triangle .content {
@@ -639,19 +659,21 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     transform: rotate(-45deg); */
     top: -35px;
     position: absolute;
-    left: -37px;
-    width: 200px;
-    height: 200px;
+    left: -33px;
+    width: 300px;
+    height: 300px;
+    padding: 0;
 }
 
 .team-hover {
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(103, 109, 117, 0.9);
+    width: 300px;
+    height: 300px;
+    background: rgba(2, 12, 103, 0.7);
     opacity: 0;
+    padding: 0;
     -webkit-transition: opacity 0.4s ease-in;
     /* For Safari 3.1 to 6.0 */
     transition: opacity 0.4s ease-in;
@@ -662,15 +684,19 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
 }
 
 .team-hover i {
-    color: rgba(255, 255, 255, .75);
+    color: #ffbb00;
+    margin-bottom: 20px;
+    /* text-align: center; */
     font-size: 28px;
     margin-top: 57px;
+    padding: 0;
     position: relative;
 }
 
 .team-hover p {
-    color: #ffffff;
-    font-size: 16px;
+    color: #fcffff;
+    /* text-align: center; */
+    font-size: 11.7px;
     font-weight: 400;
     margin-top: 0;
 }
@@ -710,8 +736,8 @@ ul.social-list li .rotate-box-1 {
 }
 
 ul.social-list li a i {
-    color: #fff;
-    font-size: 20px;
+    color: #020c67;
+    font-size: 30px;
 }
 
 /* ===== End social ===== */
@@ -752,7 +778,8 @@ ul.social-list li a i {
 }
 
 #contact-section .contact .contact-form button:hover {
-    color: #fff;
+    color: #020c67;
+    background-color: #ffbb00;
 }
 
 #contact-section .contact .form-control {
@@ -761,7 +788,7 @@ ul.social-list li a i {
 }
 
 #contact-section .contact .form-control:focus {
-    background-color: #171717;
+    background-color: rgba(158, 125, 34, 0.47);
     box-shadow: none;
 }
 
