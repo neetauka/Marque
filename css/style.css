@@ -409,7 +409,6 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     margin-bottom: 15px;
     margin-right: 25px;
     margin-top: 10px;
-    float: left;
     -webkit-transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
     -o-transition: all 0.2s ease-in-out;
@@ -423,10 +422,10 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     line-height: 45px;
     color: #020c67 !important;
     font-size: 18px;
-    -webkit-transform: rotate(45deg);
-    -moz-transform: rotate(45deg);
+    /* -webkit-transform: rotate(45deg); */
+    /* -moz-transform: rotate(45deg);
     -o-transform: rotate(45deg);
-    transform: rotate(45deg);
+    transform: rotate(45deg); */
 }
 
 .rotate-box-1.square-icon .rotate-box-icon:after, .rotate-box-2.square-icon .rotate-box-icon:after {
@@ -452,10 +451,10 @@ a.rotate-box-1:hover, a.rotate-box-2:hover {
     -o-transition: all 0.2s ease-in-out;
     -ms-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
-    -webkit-transform: rotate(-45deg);
+    /* -webkit-transform: rotate(-45deg);
     -moz-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
-    transform: rotate(-45deg);
+    transform: rotate(-45deg); */
 }
 
 .rotate-box-1:hover.square-icon .rotate-box-icon .fa, .rotate-box-2:hover.square-icon .rotate-box-icon .fa {
