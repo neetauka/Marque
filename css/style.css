@@ -136,9 +136,6 @@ section {
     background-size: cover;
 }
 
-#header {
-    /* height: 98px; */
-}
 
 
 /* ===== Begin text colors ===== */
@@ -289,7 +286,7 @@ section {
     font-size: 20px;
 }
 
-.navbar-default.navbar-fixed-top.navbar-shrink .container {}
+
 
 .navbar-fixed-top.navbar-shrink .container {
     padding-top: 0 !important;
@@ -307,9 +304,7 @@ section {
 }
 
 /* Navbar transparent */
-.navbar-transparent {
-    /* background-color: #020c67; */
-}
+
 
 .navbar-fixed-top.navbar-transparent .container {
     padding-top: 30px;
@@ -381,7 +376,7 @@ left: 150px;
     /* border: 1px solid red; */
 }
 
-.bg-style1 {}
+
 
 .rotate-box-1, .rotate-box-2 {
     display: inline-block;
